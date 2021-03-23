@@ -1,0 +1,86 @@
+# Proprietary files - from Samsung package version G970FXXU9FUBD, unless pinned
+
+### AUDIO
+vendor/etc/floating_feature.xml
+vendor/etc/mixer_gains.xml
+vendor/lib/librecordalive.so
+
+### AUDIO_FIRMWARE
+vendor/firmware/APBargeIn_AUDIO_SLSI.bin
+vendor/firmware/APBiBF_AUDIO_SLSI.bin
+vendor/firmware/APDV_AUDIO_SLSI.bin
+vendor/firmware/APSV_AUDIO_SLSI.bin
+vendor/firmware/AP_AUDIO_SLSI.bin
+vendor/firmware/SoundBoosterParam.bin
+
+### BIOMETRICS_FINGERPRINT
+vendor/lib/libbauthserver.so
+vendor/lib/libbauthtzcommon.so
+vendor/lib64/libbauthserver.so
+vendor/lib64/libbauthtzcommon.so
+
+### BLUETOOTH_FIRMWARE
+vendor/firmware/bcm4375B0_murata.hcd
+vendor/firmware/bcm4375B0_semco.hcd
+vendor/firmware/bcm4375B1_murata.hcd
+vendor/firmware/bcm4375B1_semco.hcd
+vendor/firmware/bcm4375B1_semco_sem.hcd
+
+### CAMERA
+vendor/lib/hw/camera.exynos9820.so
+vendor/lib64/hw/camera.exynos9820.so
+
+### CAMERA_DEPENDENCIES
+vendor/lib/libexynoscamera3.so
+vendor/lib64/libexynoscamera3.so
+
+### GPS/GNSS
+vendor/lib64/libwrappergps.so
+
+### OMX_FIRMWARE
+vendor/firmware/fimc_is_lib.bin
+vendor/firmware/fimc_is_rta.bin
+
+### RIL
+vendor/bin/secril_config_svc
+vendor/etc/init/init.baseband.rc
+vendor/lib/libsec-ril.so
+vendor/lib/libsec-ril-dsds.so
+vendor/lib64/libsec-ril.so
+vendor/lib64/libsec-ril-dsds.so
+
+### SAMSUNG_SLSI_HWC
+vendor/lib/libexynosdisplay.so
+vendor/lib64/libexynosdisplay.so
+
+### SAMSUNG_SLSI_FIRMWARE
+vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
+vendor/firmware/fimc_is_fw_mcu.bin
+vendor/firmware/setfile_2l4.bin
+vendor/firmware/setfile_3m3.bin
+vendor/firmware/setfile_3p9.bin
+
+### SENSORS
+vendor/lib/sensors.bio.so
+vendor/lib/sensors.sensorhub.so
+vendor/lib64/sensors.bio.so
+vendor/lib64/sensors.sensorhub.so
+
+### TEEGRIS_FIRMWARE
+vendor/tee/00000000-0000-0000-0000-00000000dead
+vendor/tee/00000000-0000-0000-0000-000000534b4d
+vendor/tee/00000000-0000-0000-0000-0053545354ab
+vendor/tee/00000000-0000-0000-0000-46494e474552
+vendor/tee/00000000-0000-0000-0000-4b45594d5354
+vendor/tee/00000000-0000-0000-0000-505256544545
+vendor/tee/00000000-0000-0000-0000-657365447276
+vendor/tee/driver/00000000-0000-0000-0000-53626f786476
+
+### WIFI
+vendor/firmware/bcmdhd_clm.blob
+vendor/firmware/nvram.txt_1rh_es43_b1
+vendor/firmware/nvram.txt_CS01_semco_b1
+vendor/firmware/nvram.txt_ES03_semco_b0
