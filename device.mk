@@ -14,18 +14,14 @@
 # limitations under the License.
 #
 
-### PLATFORM
-$(call inherit-product, device/samsung/exynos9820-common/platform.mk)
-### PROPRIETARY VENDOR FILES
+# Inherit from the common tree
+$(call inherit-product, device/samsung/exynos9820-common/common.mk)
+
+# Inherit proprietary files
 $(call inherit-product, vendor/samsung/beyond0lte/beyond0lte-vendor.mk)
 
-### DALVIK
+# Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
-DEVICE_PATH := device/samsung/beyond0lte
-
-DEVICE_PACKAGE_OVERLAYS += \
-	$(DEVICE_PATH)/overlay \
-	$(DEVICE_PATH)/overlay-lineage
-
-#include $(DEVICE_PATH)/device/*.mk
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
