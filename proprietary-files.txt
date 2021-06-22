@@ -3,15 +3,30 @@
 ## Audio
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
+vendor/etc/mixer_paths.xml
+vendor/lib/libaudioproxy.so
+vendor/lib/libaudio_soundtrigger.so
 vendor/lib/librecordalive.so
+vendor/lib/lib_SamsungRec_07010.so
+vendor/lib/hw/audio.primary.exynos9820.so
+vendor/lib/hw/sound_trigger.primary.exynos9820.so
+vendor/lib/soundfx/libaudioeffectoffload.so
+vendor/lib64/soundfx/libaudioeffectoffload.so
 
 ## Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
+vendor/firmware/APDVTX_AUDIO_SLSI.bin
 vendor/firmware/APSV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/SoundBoosterParam.bin
+vendor/firmware/calliope_dram_2.bin
+vendor/firmware/calliope2.dt
+vendor/firmware/calliope_sram_2.bin
+vendor/firmware/calliope_sram.bin
+vendor/firmware/calliope_dram.bin
+vendor/firmware/dax_param.bin
 
 ## Bluetooth Firmware
 vendor/firmware/bcm4375B0_murata.hcd
@@ -28,6 +43,9 @@ vendor/lib64/hw/camera.exynos9820.so
 vendor/lib/libexynoscamera3.so
 vendor/lib64/libexynoscamera3.so
 
+## Codecs
+vendor/etc/media_codecs_performance.xml
+
 ## Fingerprint
 vendor/lib/libbauthserver.so
 vendor/lib/libbauthtzcommon.so
@@ -35,21 +53,57 @@ vendor/lib64/libbauthserver.so
 vendor/lib64/libbauthtzcommon.so
 
 ## Firmware
+vendor/firmware/bidirmic.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-bot-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-bot-dsp1-spk-prot.wmfw
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot-calib.bin
 vendor/firmware/cs35l40-rcv-dsp1-spk-prot.bin
+vendor/firmware/cs35l40-rcv-dsp1-spk-prot.wmfw
+vendor/firmware/dnn.bin
+vendor/firmware/dual_cal_wide_swide.bin
+vendor/firmware/dual_cal_wide_tele.bin
 vendor/firmware/fimc_is_fw_mcu.bin
+vendor/firmware/fmsb.bin
+vendor/firmware/rxse.bin
 vendor/firmware/setfile_2l4.bin
+vendor/firmware/setfile_3j1.bin
 vendor/firmware/setfile_3m3.bin
 vendor/firmware/setfile_3p9.bin
+vendor/firmware/setfile_4ha.bin
+vendor/firmware/txse1.bin
+vendor/firmware/txse2.bin
+vendor/firmware/vts.bin
+
+## Gatekeeper
+vendor/lib/hw/gatekeeper.exynos9820.so
+vendor/lib64/hw/gatekeeper.exynos9820.so
+
+### GRALLOC
+vendor/lib/hw/gralloc.exynos9820.so
+vendor/lib64/hw/gralloc.exynos9820.so
 
 ## GPS
+vendor/bin/hw/gpsd
+vendor/etc/gnss/gps.xml
+vendor/etc/init/init.gps.rc
 vendor/lib64/libwrappergps.so
+vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+vendor/lib64/hw/gps.default.so
+vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 ## HWC
 vendor/lib/libexynosdisplay.so
+vendor/lib/hw/hwcomposer.exynos9820.so
 vendor/lib64/libexynosdisplay.so
+vendor/lib64/hw/hwcomposer.exynos9820.so
+
+## Memtrack
+vendor/lib64/hw/memtrack.exynos9820.so
+vendor/lib/hw/memtrack.exynos9820.so
+
+## NFC
+vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 
 ## OMX Firmware
 vendor/firmware/fimc_is_lib.bin
@@ -57,6 +111,7 @@ vendor/firmware/fimc_is_rta.bin
 
 ## RIL
 vendor/bin/secril_config_svc
+vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 vendor/lib/libsec-ril.so
 vendor/lib/libsec-ril-dsds.so
@@ -64,10 +119,14 @@ vendor/lib64/libsec-ril.so
 vendor/lib64/libsec-ril-dsds.so
 
 ## Sensors
+vendor/bin/hw/lhd
+vendor/etc/sensor/lhd.conf
 vendor/lib/sensors.bio.so
 vendor/lib/sensors.sensorhub.so
+vendor/lib/hw/sensors.exynos9820.so
 vendor/lib64/sensors.bio.so
 vendor/lib64/sensors.sensorhub.so
+vendor/lib64/hw/sensors.exynos9820.so
 
 ## TEEGRIS Firmware
 vendor/tee/00000000-0000-0000-0000-00000000dead
@@ -81,6 +140,9 @@ vendor/tee/driver/00000000-0000-0000-0000-53626f786476
 
 ## Wi-Fi
 vendor/firmware/bcmdhd_clm.blob
+vendor/firmware/nvram.txt_1rh_es11_b0
+vendor/firmware/nvram.txt_1rh_es12_b0
+vendor/firmware/nvram.txt_1rh_es13_b0
 vendor/firmware/nvram.txt_1rh_es43_b1
 vendor/firmware/nvram.txt_CS01_semco_b1
 vendor/firmware/nvram.txt_ES03_semco_b0
