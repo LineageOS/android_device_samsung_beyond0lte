@@ -1,0 +1,6 @@
+[
+    {
+        "repository": "android_device_samsung_exynos9820-common",
+        "target_path": "device/samsung/exynos9820-common"
+    }
+]
