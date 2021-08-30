@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G970FXXSBFUF3, unless pinned
+# Proprietary files - from Samsung package version G970FXXUCFUH3, unless pinned
 
 ## Audio
 vendor/etc/dolby/dax-default.xml
@@ -19,8 +19,8 @@ vendor/lib64/soundfx/libaudioeffectoffload.so
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
 vendor/firmware/APBiBF_AUDIO_SLSI.bin
 vendor/firmware/APDV_AUDIO_SLSI.bin
-vendor/firmware/APDVTX_AUDIO_SLSI.bin
 vendor/firmware/APSV_AUDIO_SLSI.bin
+vendor/firmware/APTV_AUDIO_SLSI.bin
 vendor/firmware/AP_AUDIO_SLSI.bin
 vendor/firmware/SoundBoosterParam.bin
 vendor/firmware/calliope_dram_2.bin
@@ -75,6 +75,7 @@ vendor/firmware/setfile_3p9.bin
 vendor/firmware/setfile_4ha.bin
 vendor/firmware/txse1.bin
 vendor/firmware/txse2.bin
+vendor/firmware/txse3.bin
 vendor/firmware/vts.bin
 
 ## Gatekeeper
@@ -87,8 +88,10 @@ vendor/lib64/hw/gralloc.exynos9820.so
 
 ## GPS
 vendor/bin/hw/gpsd
+vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
+vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/lib64/libwrappergps.so
 vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 vendor/lib64/hw/gps.default.so
@@ -115,8 +118,6 @@ vendor/firmware/fimc_is_rta.bin
 vendor/bin/secril_config_svc
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
-vendor/lib/libsec-ril.so
-vendor/lib/libsec-ril-dsds.so
 vendor/lib64/libsec-ril.so
 vendor/lib64/libsec-ril-dsds.so
 
