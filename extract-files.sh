@@ -8,6 +8,10 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib64/libexynoscamera3.so)
+            xxd -p "${2}" | sed "s/8b022036/1f2003d5/g" | xxd -r -p > "${2}".patched
+            mv "${2}".patched "${2}"
+            ;;
         vendor/lib*/libsec-ril*.so)
             "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
             ;;
