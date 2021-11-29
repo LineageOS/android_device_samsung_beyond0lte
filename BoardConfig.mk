@@ -27,6 +27,9 @@ DEXPREOPT_GENERATE_APEX_IMAGE := true
 ## Display
 TARGET_SCREEN_DENSITY := 480
 
+## Fingerprint
+TARGET_SEC_FP_HAS_FINGERPRINT_GESTURES := true
+
 ## Kernel
 TARGET_KERNEL_CONFIG := exynos9820-beyond0lte_defconfig
 
