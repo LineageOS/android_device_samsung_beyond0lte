@@ -115,7 +115,6 @@ vendor/firmware/fimc_is_lib.bin
 vendor/firmware/fimc_is_rta.bin
 
 ## RIL
-vendor/bin/secril_config_svc
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 vendor/lib64/libsec-ril.so
