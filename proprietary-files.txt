@@ -5,15 +5,15 @@ vendor/etc/dolby/dax-default.xml
 vendor/etc/floating_feature.xml
 vendor/etc/mixer_gains.xml
 vendor/etc/mixer_paths.xml
-vendor/lib/libaudioproxy.so
-vendor/lib/libaudio_soundtrigger.so
-vendor/lib/librecordalive.so
-vendor/lib/lib_SamsungRec_07010.so
-vendor/lib/hw/audio.primary.exynos9820.so
-vendor/lib/hw/sound_trigger.primary.exynos9820.so
-vendor/lib/soundfx/libaudioeffectoffload.so
-vendor/lib/soundfx/libswdap.so
-vendor/lib64/soundfx/libaudioeffectoffload.so
+-vendor/lib/libaudioproxy.so
+-vendor/lib/libaudio_soundtrigger.so
+-vendor/lib/librecordalive.so
+-vendor/lib/lib_SamsungRec_07010.so
+-vendor/lib/hw/audio.primary.exynos9820.so
+-vendor/lib/hw/sound_trigger.primary.exynos9820.so
+-vendor/lib/soundfx/libaudioeffectoffload.so
+-vendor/lib/soundfx/libswdap.so
+-vendor/lib64/soundfx/libaudioeffectoffload.so
 
 ## Audio Firmware
 vendor/firmware/APBargeIn_AUDIO_SLSI.bin
@@ -38,21 +38,21 @@ vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera
-vendor/lib/hw/camera.exynos9820.so
-vendor/lib64/hw/camera.exynos9820.so
+-vendor/lib/hw/camera.exynos9820.so
+-vendor/lib64/hw/camera.exynos9820.so
 
 ## Camera dependencies
-vendor/lib/libexynoscamera3.so
-vendor/lib64/libexynoscamera3.so
+-vendor/lib/libexynoscamera3.so
+-vendor/lib64/libexynoscamera3.so
 
 ## Codecs
 vendor/etc/media_codecs_performance.xml
 
 ## Fingerprint
-vendor/lib/libbauthserver.so
-vendor/lib/libbauthtzcommon.so
-vendor/lib64/libbauthserver.so
-vendor/lib64/libbauthtzcommon.so
+-vendor/lib/libbauthserver.so
+-vendor/lib/libbauthtzcommon.so
+-vendor/lib64/libbauthserver.so
+-vendor/lib64/libbauthtzcommon.so
 
 ## Firmware
 vendor/firmware/bidirmic.bin
@@ -79,33 +79,33 @@ vendor/firmware/txse3.bin
 vendor/firmware/vts.bin
 
 ## Gatekeeper
-vendor/lib/hw/gatekeeper.exynos9820.so
-vendor/lib64/hw/gatekeeper.exynos9820.so
+-vendor/lib/hw/gatekeeper.exynos9820.so
+-vendor/lib64/hw/gatekeeper.exynos9820.so
 
 ### GRALLOC
-vendor/lib/hw/gralloc.exynos9820.so
-vendor/lib64/hw/gralloc.exynos9820.so
+-vendor/lib/hw/gralloc.exynos9820.so
+-vendor/lib64/hw/gralloc.exynos9820.so
 
 ## GPS
-vendor/bin/hw/gpsd
-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
+-vendor/bin/hw/gpsd
+-vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
 vendor/etc/gnss/gps.xml
 vendor/etc/init/init.gps.rc
 vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
-vendor/lib64/libwrappergps.so
-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
-vendor/lib64/hw/gps.default.so
-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
+-vendor/lib64/libwrappergps.so
+-vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
+-vendor/lib64/hw/gps.default.so
+-vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
 
 ## HWC
-vendor/lib/libexynosdisplay.so
-vendor/lib/hw/hwcomposer.exynos9820.so
-vendor/lib64/libexynosdisplay.so
-vendor/lib64/hw/hwcomposer.exynos9820.so
+-vendor/lib/libexynosdisplay.so
+-vendor/lib/hw/hwcomposer.exynos9820.so
+-vendor/lib64/libexynosdisplay.so
+-vendor/lib64/hw/hwcomposer.exynos9820.so
 
 ## Memtrack
-vendor/lib64/hw/memtrack.exynos9820.so
-vendor/lib/hw/memtrack.exynos9820.so
+-vendor/lib64/hw/memtrack.exynos9820.so
+-vendor/lib/hw/memtrack.exynos9820.so
 
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
@@ -117,18 +117,18 @@ vendor/firmware/fimc_is_rta.bin
 ## RIL
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
-vendor/lib64/libsec-ril.so
-vendor/lib64/libsec-ril-dsds.so
+-vendor/lib64/libsec-ril.so
+-vendor/lib64/libsec-ril-dsds.so
 
 ## Sensors
-vendor/bin/hw/lhd
+-vendor/bin/hw/lhd
 vendor/etc/sensor/lhd.conf
-vendor/lib/sensors.bio.so
-vendor/lib/sensors.sensorhub.so
-vendor/lib/hw/sensors.exynos9820.so
-vendor/lib64/sensors.bio.so
-vendor/lib64/sensors.sensorhub.so
-vendor/lib64/hw/sensors.exynos9820.so
+-vendor/lib/sensors.bio.so
+-vendor/lib/sensors.sensorhub.so
+-vendor/lib/hw/sensors.exynos9820.so
+-vendor/lib64/sensors.bio.so
+-vendor/lib64/sensors.sensorhub.so
+-vendor/lib64/hw/sensors.exynos9820.so
 
 ## TEEGRIS Firmware
 vendor/tee/00000000-0000-0000-0000-00000000dead
