@@ -1,4 +1,4 @@
-# Proprietary files - from Samsung package version G970FXXSEGVA9, unless pinned
+# Proprietary files - from Samsung package version G970FXXUEHVC6, unless pinned
 
 ## Audio
 vendor/etc/dolby/dax-default.xml
@@ -36,13 +36,9 @@ vendor/firmware/bcm4375B1_murata.hcd
 vendor/firmware/bcm4375B1_semco.hcd
 vendor/firmware/bcm4375B1_semco_sem.hcd
 
-## Camera
--vendor/lib/hw/camera.exynos9820.so
--vendor/lib64/hw/camera.exynos9820.so
-
-## Camera dependencies
--vendor/lib/libexynoscamera3.so
--vendor/lib64/libexynoscamera3.so
+## Camera - from beyond0lte - G970FXXSEGVA9
+-vendor/lib64/hw/camera.exynos9820.so|4f8e859bdc37ce8829df48d369ec99e38ae84a3d
+-vendor/lib64/libexynoscamera3.so|8a6bb66b1eecf3da5e5462ee8d4534389ca546c0
 
 ## Codecs
 vendor/etc/media_codecs_performance.xml
