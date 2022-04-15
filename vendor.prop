@@ -1,2 +1,5 @@
+## Bluetooth
+bluetooth.device.default_name=Galaxy S10e
+
 ## RIL
 ro.telephony.default_network=9,9
