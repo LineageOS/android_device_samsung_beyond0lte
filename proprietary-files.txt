@@ -9,7 +9,6 @@ vendor/etc/mixer_paths.xml
 -vendor/lib/librecordalive.so
 -vendor/lib/lib_SamsungRec_07010.so
 -vendor/lib/hw/audio.primary.exynos9820.so
--vendor/lib/hw/sound_trigger.primary.exynos9820.so
 -vendor/lib/soundfx/libaudioeffectoffload.so
 -vendor/lib/soundfx/libswdap.so
 -vendor/lib64/soundfx/libaudioeffectoffload.so
