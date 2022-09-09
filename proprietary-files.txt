@@ -97,10 +97,6 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 -vendor/lib64/libexynosdisplay.so
 -vendor/lib64/hw/hwcomposer.exynos9820.so
 
-## Memtrack
--vendor/lib64/hw/memtrack.exynos9820.so
--vendor/lib/hw/memtrack.exynos9820.so
-
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 
