@@ -8,6 +8,9 @@
 
 function blob_fixup() {
     case "${1}" in
+        vendor/lib*/libsec-ril*.so)
+            "${PATCHELF}" --replace-needed libril.so libril-samsung.so "${2}"
+            ;;
         vendor/lib/hw/audio.primary.exynos9820.so)
             "${PATCHELF}" --remove-needed libaudio_soundtrigger.so "${2}"
             "${PATCHELF}" --add-needed libshim_audioparams.so "${2}"
