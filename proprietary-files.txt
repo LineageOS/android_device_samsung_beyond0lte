@@ -80,10 +80,6 @@ vendor/firmware/vts.bin
 -vendor/lib/hw/gatekeeper.exynos9820.so
 -vendor/lib64/hw/gatekeeper.exynos9820.so
 
-### GRALLOC
--vendor/lib/hw/gralloc.exynos9820.so
--vendor/lib64/hw/gralloc.exynos9820.so
-
 ## GPS
 -vendor/bin/hw/gpsd
 -vendor/bin/hw/vendor.samsung.hardware.gnss@2.0-service
@@ -94,12 +90,6 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 -vendor/lib64/hw/android.hardware.gnss@2.0-impl.so
 -vendor/lib64/hw/gps.default.so
 -vendor/lib64/hw/vendor.samsung.hardware.gnss@2.0-impl.so
-
-## HWC
--vendor/lib/libexynosdisplay.so
--vendor/lib/hw/hwcomposer.exynos9820.so
--vendor/lib64/libexynosdisplay.so
--vendor/lib64/hw/hwcomposer.exynos9820.so
 
 ## NFC
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
