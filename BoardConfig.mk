@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2021-2023 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 
 ## Inherit from the common tree
-include device/samsung/exynos9820-common/BoardConfigCommon.mk
+include device/samsung/exynos9820-common/BoardConfig9820.mk
 
 ## Inherit from the proprietary configuration
 include vendor/samsung/beyond0lte/BoardConfigVendor.mk
