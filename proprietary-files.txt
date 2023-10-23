@@ -1,10 +1,5 @@
 # Proprietary files - from Samsung package version G970FXXSGHWA3, unless pinned
 
-## Audio
-vendor/etc/floating_feature.xml
-vendor/etc/mixer_gains.xml
-vendor/etc/mixer_paths.xml
-
 ## Audio - Dolby Atmos
 vendor/etc/dolby/dax-default.xml
 -vendor/lib/soundfx/libswdap.so
@@ -91,6 +86,7 @@ vendor/etc/init/vendor.samsung.hardware.gnss@2.0-service.rc
 vendor/firmware/nfc/sec_s3nrn82_firmware.bin
 
 ## RIL
+vendor/etc/floating_feature.xml
 vendor/etc/plmn_se13.bin
 vendor/etc/init/init.baseband.rc
 
