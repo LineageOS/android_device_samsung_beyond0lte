@@ -2128,8 +2128,10 @@
 	</path>
 
 	<path name="media-mic">
-		<path name="dev-main-mic" />
-		<path name="route-ap-record" />
+		<path name="dev-dual-invert-mic" />
+		<path name="route-ap-record-txse1" />
+		<ctl name="ABOX OEM AP Call type" value="1" />
+		<ctl name="ABOX OEM NXP Mode" value="2" />
 	</path>
 
 	<path name="media-2nd-mic">
@@ -4524,7 +4526,8 @@
 	<!-- Input stage volume -->
 	<!-- media input volume -->
 	<path name="gain-media-mic">
-		<ctl name="IN3L Digital Volume" value="96" />
+		<ctl name="IN3L Digital Volume" value="126" />
+		<ctl name="IN4L Digital Volume" value="168" />
 	</path>
 
 	<path name="gain-media-2nd-mic">
@@ -4553,7 +4556,7 @@
 
 	<!-- voice recording input volume -->
 	<path name="gain-recording-mic">
-		<ctl name="IN3L Digital Volume" value="116" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-recording-2nd-mic">
@@ -4598,7 +4601,7 @@
 
 	<!-- camcorder input volume -->
 	<path name="gain-camcorder-mic">
-		<ctl name="IN3L Digital Volume" value="116" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-camcorder-2nd-mic">
@@ -4631,7 +4634,7 @@
 
 	<!-- recognition input volume -->
 	<path name="gain-recognition-mic">
-		<ctl name="IN3L Digital Volume" value="164" />
+		<path name="gain-media-mic" />
 	</path>
 
 	<path name="gain-recognition-2nd-mic">
