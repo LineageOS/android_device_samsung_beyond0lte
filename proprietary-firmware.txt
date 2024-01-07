@@ -1,0 +1,29 @@
+# Firmware for model SM-G970F - from Samsung package version G970FXXSGHWC1
+
+cm.bin_SM-G970F
+dqmdbg.img_SM-G970F
+keystorage.bin_SM-G970F
+modem.bin_SM-G970F
+modem_debug.bin_SM-G970F
+param.bin_SM-G970F
+sboot.bin_SM-G970F
+uh.bin_SM-G970F
+up_param.bin_SM-G970F
+
+# Firmware for model SM-G970N - from Samsung package version G970NKSU7HWA1
+
+cm.bin_SM-G970N
+dqmdbg.img_SM-G970N
+keystorage.bin_SM-G970N
+modem.bin_SM-G970N
+modem_debug.bin_SM-G970N
+param.bin_SM-G970N
+sboot.bin_SM-G970N
+uh.bin_SM-G970N
+up_param.bin_SM-G970N
+
+# File containing the supported models, one per line
+models
+# Files containing Samsung package version for supported models
+version_SM-G970F
+version_SM-G970N
