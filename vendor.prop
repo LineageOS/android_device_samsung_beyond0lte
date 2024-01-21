@@ -1,5 +1,10 @@
 ## Bluetooth
 bluetooth.device.default_name=Galaxy S10e
 
+## Fingerprint
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|265|250
+ro.vendor.fingerprint.supports_gestures=true
+
 ## RIL
 ro.telephony.default_network=9,9
