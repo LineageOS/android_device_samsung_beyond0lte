@@ -1,29 +1,29 @@
 # Firmware for model SM-G970F - from Samsung package version G970FXXSGHWC2
 
-cm.bin_SM-G970F
-dqmdbg.img_SM-G970F
-keystorage.bin_SM-G970F
-modem.bin_SM-G970F
-modem_debug.bin_SM-G970F
-param.bin_SM-G970F
-sboot.bin_SM-G970F
-uh.bin_SM-G970F
-up_param.bin_SM-G970F
+cm.bin_SM-G970F|d8d436fe6939555bf051885f5b9d3fe35d0475c7
+dqmdbg.img_SM-G970F|d4f25ff57c8e2d5155260d4546f6b2402e6dabdc
+keystorage.bin_SM-G970F|b095405534233a9017afe9ff34d49c3e8b1f2a2a
+modem.bin_SM-G970F|5a66a42b03717f530762a5d211416c80ad573c65
+modem_debug.bin_SM-G970F|e4831b039e4a18e134ee36f15f8bba0931cdb20f
+param.bin_SM-G970F|c97b0d210fa4a7a9c34818f7fad327c055ef3b1e
+sboot.bin_SM-G970F|eef37c5e591d085c00d97c85c2d2e97f3424a459
+uh.bin_SM-G970F|dfdd1801221fe8ccea4b7d548d4895abb4be4056
+up_param.bin_SM-G970F|e1d2d00e94cacc2aa26bf7f30554ca60073ac8fe
 
 # Firmware for model SM-G970N - from Samsung package version G970NKSU7HWD3
 
-cm.bin_SM-G970N
-dqmdbg.img_SM-G970N
-keystorage.bin_SM-G970N
-modem.bin_SM-G970N
-modem_debug.bin_SM-G970N
-param.bin_SM-G970N
-sboot.bin_SM-G970N
-uh.bin_SM-G970N
-up_param.bin_SM-G970N
+cm.bin_SM-G970N|bb50cbeebd4a9221c4dd78264d31edb1620867ca
+dqmdbg.img_SM-G970N|9a0965328dd745fbd1fbdfce35c07ddc5e18a808
+keystorage.bin_SM-G970N|4f2ee248178b72d0f7f8156bc9b8d7d18ddb7d35
+modem.bin_SM-G970N|b79a2381f70ce85c440985da598a7e36fd6bd2c0
+modem_debug.bin_SM-G970N|4a5fa415e3bcb006c95b54ba85aef8ab8d5b0f04
+param.bin_SM-G970N|8bcd591976b9b22131296819ebfc2c295d1b776b
+sboot.bin_SM-G970N|06cc7993c536f9a61145a66bdeae118917b988cf
+uh.bin_SM-G970N|8bf1fb066e9c7b673906abf766d1d34e4a512a79
+up_param.bin_SM-G970N|daa206e1fa5bbbbc4952ded9c5343bdd5f86ec63
 
 # File containing the supported models, one per line
-models
+models|3ccf54b4274f3d86e88fd21709447651ba68cef4
 # Files containing Samsung package version for supported models
-version_SM-G970F
-version_SM-G970N
+version_SM-G970F|382c4f98c895b8c9fba8527b9d694607a0d529ac
+version_SM-G970N|172618abd47497984973e0164f667765b5c8d9ba
