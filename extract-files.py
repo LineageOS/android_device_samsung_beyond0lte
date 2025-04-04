@@ -27,7 +27,9 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .binary_regex_replace(b'ro.factory.factory_binary', b'ro.vendor.factory_binary\x00'),
     'vendor/lib64/libexynoscamera3.so': blob_fixup()
-        .sig_replace('8B 02 20 36', '1F 20 03 D5'),
+        .sig_replace('8B 02 20 36', '1F 20 03 D5')
+        .add_needed('libshim_camera.so')
+        .binary_regex_replace(b'_ZN7android5Fence', b'_ZN7exynos55Fence'),
     (
         'vendor/lib/sensors.bio.so',
         'vendor/lib/sensors.sensorhub.so',

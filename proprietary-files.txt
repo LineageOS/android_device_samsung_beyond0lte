@@ -28,7 +28,7 @@ vendor/firmware/bcm4375B1_semco_sem.hcd
 
 ## Camera - from beyond0lte - G970FXXSEGVA9
 vendor/lib64/hw/camera.exynos9820.so|4f8e859bdc37ce8829df48d369ec99e38ae84a3d
-vendor/lib64/libexynoscamera3.so|8a6bb66b1eecf3da5e5462ee8d4534389ca546c0|8a6bb66b1eecf3da5e5462ee8d4534389ca546c0
+vendor/lib64/libexynoscamera3.so|dce57bb064da4ff5f368af71eeae0b6a1f06064c|dce57bb064da4ff5f368af71eeae0b6a1f06064c
 
 ## Camera Firmware
 vendor/firmware/fimc_is_fw_mcu.bin
