@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "799c9e33_dfd1c851",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 29699
+      },
+      "writtenOn": "2026-01-17T18:31:37Z",
+      "side": 1,
+      "message": "tested on beyond2lte, but this device seems to need it as well.",
+      "revId": "e5dbcb19cdfb7e471e1bd1953d8e2a4036b8ff9a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
