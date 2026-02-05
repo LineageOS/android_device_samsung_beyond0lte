@@ -22,7 +22,8 @@ namespace_imports = [
 
 blob_fixups: blob_fixups_user_type = {
     'vendor/bin/hw/gpsd': blob_fixup()
-        .replace_needed('libcrypto.so', 'libcrypto-tm.so'),
+        .replace_needed('libcrypto.so', 'libcrypto-tm.so')
+        .replace_needed('libssl.so', 'libssl-tm.so'),
     (
         'vendor/bin/vaultkeeperd',
         'vendor/lib64/libvkservice.so'
